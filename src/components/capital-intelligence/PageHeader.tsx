@@ -38,12 +38,14 @@ export function PageHeader() {
         <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-3">
-              <div className="flex h-9 w-9 items-center justify-center rounded-md bg-[#85B918] text-[#090909] font-bold">
-                T
-              </div>
+              <img
+                src="/camg-logo.png"
+                alt="Consumer Attorney Marketing Group"
+                className="h-10 w-auto object-contain"
+              />
               <div className="leading-tight">
                 <div className="text-[11px] uppercase tracking-[0.18em] text-white/60">
-                  Tortelligence
+                  CAMG-Intelligence
                 </div>
                 <div className="font-condensed text-xl font-semibold tracking-tight">
                   Capital Intelligence
